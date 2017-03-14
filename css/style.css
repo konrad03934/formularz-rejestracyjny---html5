@@ -67,6 +67,7 @@ header h1 {
 	top: 30%;
 }
 
+/*style dla danych kontaktowych*/
 .wrap-input {
 	font-size: 1.3em;
 	margin: 15px;
@@ -83,6 +84,7 @@ label, input {
 	
 }
 
+/*style miasto*/
 .cities {
 	margin: 20px;
 }
@@ -91,4 +93,14 @@ label, input {
 	border-radius: 5px;
 	padding: 5px 43px;
 	background-color: #c1bcbc;
+}
+
+/*płeć*/
+.man-woman {
+	margin: 20px 0;
+}
+
+.man-woman label {
+	margin-left: 20px;
+	font-size: 1.3em;
 }
