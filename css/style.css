@@ -67,7 +67,7 @@ header h1 {
 	top: 30%;
 }
 
-.wrap-input, .cities {
+.wrap-input {
 	font-size: 1.3em;
 	margin: 15px;
 	
@@ -78,7 +78,17 @@ label, input {
 }
 
 .wrap-input input {
-	border: 2px solid #480505;
+	border: 2px solid #a09c9c;
 	border-radius: 3px;
 	
+}
+
+.cities {
+	margin: 20px;
+}
+
+#miasta {
+	border-radius: 5px;
+	padding: 5px 43px;
+	background-color: #c1bcbc;
 }
