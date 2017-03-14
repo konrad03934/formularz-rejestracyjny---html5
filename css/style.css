@@ -68,16 +68,20 @@ header h1 {
 }
 
 /*style dla danych kontaktowych*/
-.wrap-input {
-	font-size: 1.3em;
-	margin: 15px;
+
+form  {
+	margin: 20px;
+}
+
+
+label, input {
+	margin: 5px 0;
 	
 }
 
-label, input {
-	margin: 5px;
+label {
+	font-size: 1.3em;
 }
-
 .wrap-input input {
 	border: 2px solid #a09c9c;
 	border-radius: 3px;
@@ -85,22 +89,48 @@ label, input {
 }
 
 /*style miasto*/
-.cities {
-	margin: 20px;
-}
 
 #miasta {
+	margin: 20px 0;
 	border-radius: 5px;
 	padding: 5px 43px;
 	background-color: #c1bcbc;
 }
 
 /*płeć*/
+
 .man-woman {
 	margin: 20px 0;
 }
 
+
 .man-woman label {
-	margin-left: 20px;
 	font-size: 1.3em;
+}
+
+.man-woman label:nth-child(2n) {
+	margin-left: 20px;
+}
+
+
+.clause p {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.message {
+	margin: 20px 0;
+}
+
+.message textarea {
+	border: 2px solid rgba(44, 89, 141, 0.76);
+	border-radius: 5px;
+}
+
+#wyslij {
+	border: 1px solid rgb(190, 190, 190);
+	border-radius: 5px;
+	color: #299afa;
+	background-color: #dddddd;
+	padding: 5px;
 }
